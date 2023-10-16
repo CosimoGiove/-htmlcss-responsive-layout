@@ -140,6 +140,19 @@ header{
 }
 
 /** fine  quinta sezione**/
+/**inizio footer**/
+.piedipagina{
+    text-align: center;
+    background-color: #9792e4;
+    padding: 150px;
+}
+
+.bg{
+    background-color: #333333;
+    padding: 50px;
+}
+
+/**fine footer**/
 
 
 
@@ -207,6 +220,10 @@ header{
     width: 100%;
    }
 
+   .piedipagina{
+    width: 100%;
+   }
+
 
 }
 
@@ -264,6 +281,10 @@ header{
         padding-bottom: 30px;
     }
     .aboutus1, .aboutus2{
+        width: 100%;
+    }
+
+    .piedipagina{
         width: 100%;
     }
 
