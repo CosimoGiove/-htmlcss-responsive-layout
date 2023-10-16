@@ -125,6 +125,22 @@ header{
 
 /** fine  quarta sezione**/
 
+/** inizio  quinta sezione**/
+.aboutus1{
+    width:70%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.aboutus2{
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+
+/** fine  quinta sezione**/
+
 
 
 
@@ -187,6 +203,9 @@ header{
     width: calc(100%/2 - 10px);
     background-color: white;
    }
+   .sezione5{
+    width: 100%;
+   }
 
 
 }
@@ -240,6 +259,12 @@ header{
 
     .cardcolor{
         width: 92%;
+    }
+    .contenitoremaintop{
+        padding-bottom: 30px;
+    }
+    .aboutus1, .aboutus2{
+        width: 100%;
     }
 
 }
