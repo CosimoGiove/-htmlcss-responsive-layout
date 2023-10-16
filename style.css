@@ -109,6 +109,21 @@ header{
     margin-left: 20px;
 }
 /** fine terza sezione**/
+/** inizio  quarta sezione**/
+ .text{
+    text-align: center;
+    padding-top: 70px;
+ }
+
+ .sezione4{
+    background-color:#9792e4;
+ }
+
+ .box4{
+    background-color: white;
+ }
+
+/** fine  quarta sezione**/
 
 
 
@@ -163,6 +178,16 @@ header{
    .imgprofilo{
     margin-left: 10px
    }
+
+   .sezione4{
+    width: 100%;
+   }
+
+   .box4{
+    width: calc(100%/2 - 10px);
+    background-color: white;
+   }
+
 
 }
 
