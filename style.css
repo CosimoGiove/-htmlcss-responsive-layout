@@ -127,7 +127,7 @@ header{
 
 /** inizio  quinta sezione**/
 .aboutus1{
-    width:70%;
+    width:69%;
     height: 300px;
     border: 1px solid black;
 }
@@ -218,6 +218,10 @@ header{
    }
    .sezione5{
     width: 100%;
+   }
+
+   .aboutus1{
+    width: 68.5%;
    }
 
    .piedipagina{
