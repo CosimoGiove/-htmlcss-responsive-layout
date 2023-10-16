@@ -4,7 +4,31 @@
     box-sizing: border-box;
 }
 
+/**commond**/
+button{
+    all:unset
+}
+
+/** fine commond**/
+
 /**navbar**/
+
+.nav-right ul li{
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+}
+
+.fa-bars{
+    display: none;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
 header nav{
     width: 70%;
     height: 80px;
@@ -160,6 +184,14 @@ header{
 
 /** media queries da 0 a 768px**/
 @media screen and (max-width:768px) {
+    .fa-bars{
+        display: block;
+        font-size: 30px;
+    }
+
+   .nav-right ul .link{
+        display: none;
+    }
    header nav{
     width:100%;
    }
