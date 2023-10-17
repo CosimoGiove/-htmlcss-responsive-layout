@@ -423,7 +423,7 @@ header {
 }
 
 .aboutus2 h3{
-    width: 400px;
+    max-width: 400px;
     line-height: 2;
     color:#9792e4; 
     font-size: 30px;
@@ -511,8 +511,6 @@ header {
 
 
 
-
-
 /** media queries da 0 a 992px tablet**/
 @media screen and (max-width:991px) {
     .fa-bars {
@@ -523,11 +521,6 @@ header {
     .nav-right ul .link {
         display: none;
     }
-
-    header nav {
-        width: 100%;
-    }
-
     .contenitoremaintop {
         padding: 0 20px;
     }
@@ -547,7 +540,6 @@ header {
     .sezione2 {
         display: block;
         background-color: #9792e4;
-        width: 100%;
         padding-top: 0px;
         padding: 0 20px;
         padding-bottom: 20px;
@@ -581,6 +573,7 @@ header {
 
     .cardcolor {
         background-color: white;
+        width: 100%;
     }
 
     .sezione3 {
@@ -607,12 +600,9 @@ header {
         background-color: white;
     }
 
-    .sezione5 {
-        width: 100%;
-    }
 
     .aboutus1 {
-        width: 68.5%;
+        width: 50%;
     }
 
     .piedipagina {
@@ -649,6 +639,10 @@ header {
 
 @media screen and (max-width:576px) {
     header nav {
+        width: 100%;
+    }
+
+    .card{
         width: 100%;
     }
 
