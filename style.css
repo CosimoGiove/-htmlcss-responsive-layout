@@ -1,36 +1,74 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /**commond**/
-button{
-    all:unset
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+button {
+    all: unset
+}
+
+.h3blue {
+    color: #0084fd;
+
+}
+
+.texticon {
+    text-align: center;
+    color: #0084fd;
+    margin-top: 20px;
+}
+
+.grey {
+    color: #5a6e7f;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 34px;
+}
+
+.icon {
+    font-size: 50px;
+    margin-top: 30px;
+    color: #0084fd;
+    text-align: center;
 }
 
 /** fine commond**/
 
 /**navbar**/
 
-.nav-right ul li{
+.nav-right ul li {
     display: inline-block;
-    margin-left: 30px;
     color: white;
 }
 
-.fa-bars{
+.fa-bars {
     display: none;
 }
 
-button{
+.links {
+    margin-right: 20px;
+}
+
+button {
     padding: 10px 15px;
     background-color: white;
     border-radius: 20px;
     color: black;
 }
-header nav{
-    width: 70%;
+
+header nav {
+    max-width: 1140px;
     height: 80px;
     margin: 0 auto;
     display: flex;
@@ -39,78 +77,188 @@ header nav{
 
 }
 
-header{
+header {
     background-color: #0084fd;
 }
 
 /** finenavbar**/
 
 /**inizio main-top**/
-.contenitoremaintop{
-    width: 70%;
+.contenitoremaintop {
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-.box{
-    width: calc(100%/3 - 10px);
-    height: 300px;
-    background-color: #b5ddff;
-    border: 1px solid black;
-    margin-right: 10px;
-    margin-top: 25px;
-    
+
+.box .h3blue {
+    margin-top: 30px;
+    margin-left: 25px;
 }
 
-.box2{
-    flex-grow: 1;
-    width: calc(100%/2);
+.apple {
+    background-color: #0084fd;
+    padding: 10px 50px;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.fa-apple {
+    margin-right: 7px;
+}
+
+.iphone1,
+.iphone {
+    width: 70%;
+    display: block;
+    margin-left: 20px;
+}
+
+
+.flex {
     display: flex;
     align-items: end;
 }
 
-.box2 div{
+.demo {
     width: 50%;
-    height: 80%;
+}
+
+.iphone1 {
+    width: 40%;
+    margin-top: 20px;
+}
+
+
+.demo .grey {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+
+.box {
+    width: calc(100%/3 - 10px);
+    background-color: #b5ddff;
+    margin-right: 10px;
+    margin-top: 25px;
+    border-radius: 20px;
 
 }
 
-.box .img,.sezione2 .card div{
-    text-align: center;
-    margin-top: 65px;
+.box2 {
+    flex-grow: 1;
+    width: calc(100%/2);
 }
+
 
 /** fine main-top**/
 /**seconda sezione**/
- .sezione2{
+.sezione2 {
     background-color: #9792e4;
-    height: 700px;
     margin-top: 100px;
     display: flex;
     justify-content: center;
- }
+    padding-top: 100px;
+}
 
- .card{
-    width: 20%;
-    height: 400px;
+.card {
+    width: 30%;
+    background-color: #9792e4;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.title {
+    margin-top: 350px;
+    color: white;
+}
+
+.planning1 {
+    width: 400px;
+    position: absolute;
+    bottom: 350px;
+    left: 5px;
+
+}
+
+.paragrafobox {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+
+.title p {
+    color: white;
+    margin-top: 60px;
+    line-height: 1.5;
+}
+
+.planning2 {
+    width: 220px;
+}
+
+.boxplanning {
+
     background-color: white;
-    border: 2px solid black;
-    margin: 200px 20px;
- }
+    border-radius: 20px;
+}
+
+.planningimg {
+    text-align: center;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #9792e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    border-radius: 50%;
+
+}
+
+.planningimg h3 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.planningimg p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 30px 40px;
+}
+
+
+
+
+
+
 /** fine seconda sezione**/
 /** inizio terza sezione**/
-.sezione3{
-    width: 70%;
+.sezione3 {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
-.partners{
+.partners {
     text-align: center;
     margin-top: 50px;
 }
 
-.partnersexpert{
+.partnersexpert {
     background-color: #9792e4;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -118,45 +266,46 @@ header{
     padding: 100px 0;
 }
 
-.imgprofilo{
+.imgprofilo {
     width: 30%;
     background-color: red;
     height: 100px;
     margin-left: 20px;
 }
 
-.descrizione{
+.descrizione {
     width: 70%;
     height: 100px;
     background-color: green;
     margin-right: 20px;
     margin-left: 20px;
 }
+
 /** fine terza sezione**/
 /** inizio  quarta sezione**/
- .text{
+.text {
     text-align: center;
     padding-top: 70px;
- }
+}
 
- .sezione4{
-    background-color:#9792e4;
- }
+.sezione4 {
+    background-color: #9792e4;
+}
 
- .box4{
+.box4 {
     background-color: white;
- }
+}
 
 /** fine  quarta sezione**/
 
 /** inizio  quinta sezione**/
-.aboutus1{
-    width:69%;
+.aboutus1 {
+    width: 69%;
     height: 300px;
     border: 1px solid black;
 }
 
-.aboutus2{
+.aboutus2 {
     width: 30%;
     height: 300px;
     border: 1px solid black;
@@ -165,13 +314,13 @@ header{
 
 /** fine  quinta sezione**/
 /**inizio footer**/
-.piedipagina{
+.piedipagina {
     text-align: center;
     background-color: #9792e4;
     padding: 150px;
 }
 
-.bg{
+.bg {
     background-color: #333333;
     padding: 50px;
 }
@@ -182,147 +331,194 @@ header{
 
 
 
-/** media queries da 0 a 768px**/
-@media screen and (max-width:768px) {
-    .fa-bars{
+/** media queries da 0 a 992px tablet**/
+@media screen and (max-width:991px) {
+    .fa-bars {
         display: block;
         font-size: 30px;
     }
 
-   .nav-right ul .link{
+    .nav-right ul .link {
         display: none;
     }
-   header nav{
-    width:100%;
-   }
-   .contenitoremaintop{
-    width: 100%;
-    padding: 0 20px;
-   }
-   .box{
-    margin-top: 40px;
-   }
-   .nav-left{
-    padding-left: 25px;
-   }
-   .nav-right{
-    padding-right: 30px;
-   }
-   
-   .sezione2{
-    display: block;
-    background-color: #9792e4;
-    width: 100%;
-    height: 900px;
-   }
-   .card{
-    width: 90%;
-    margin: 0 auto;
-    background-color:#9792e4 ;
-    border: none;
-   }
-   .card div{
-    padding-top: 30px;
-   }
-   .cardcolor{
-    background-color: white;
-    width: 95%;
-   }
-   .sezione3{
-    width: 100%;
-    padding: 20px;
-   }
 
-   .partnersexpert{
-    padding: 20px 0;
-   }
-   .imgprofilo{
-    margin-left: 10px
-   }
+    header nav {
+        width: 100%;
+    }
 
-   .sezione4{
-    width: 100%;
-   }
+    .contenitoremaintop {
+        padding: 0 20px;
+    }
 
-   .box4{
-    width: calc(100%/2 - 10px);
-    background-color: white;
-   }
-   .sezione5{
-    width: 100%;
-   }
+    .box {
+        margin-top: 40px;
+    }
 
-   .aboutus1{
-    width: 68.5%;
-   }
+    .nav-left {
+        padding-left: 25px;
+    }
 
-   .piedipagina{
-    width: 100%;
-   }
+    .nav-right {
+        padding-right: 30px;
+    }
+
+    .sezione2 {
+        display: block;
+        background-color: #9792e4;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .card {
+        background-color: #9792e4;
+        border: none;
+        margin-top: 30px;
+        padding-bottom: 80px;
+        margin-left: 0px;
+        position: relative;
+        left: 250px;
+    }
+    .planning1{
+        position: static;
+    }
 
 
+    .card div {
+        padding-top: 30px;
+    }
+
+    .cardcolor {
+        background-color: white;
+    }
+
+    .sezione3 {
+        padding: 20px;
+    }
+
+    .partnersexpert {
+        padding: 20px 0;
+    }
+
+
+    .imgprofilo {
+        margin-left: 10px
+    }
+
+    .sezione4 {
+    }
+
+    .box4 {
+        width: calc(100%/2 - 10px);
+        background-color: white;
+    }
+
+    .sezione5 {
+        width: 100%;
+    }
+
+    .aboutus1 {
+        width: 68.5%;
+    }
+
+    .piedipagina {
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .iphone {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .iphone1 {
+        margin-left: 0px;
+    }
+
+    .demo {
+        width: 100%;
+    }
+
+    .demo .grey {
+        margin-right: 20px;
+    }
 }
 
-/** media queries da 0 a 576px**/
+/** media queries da 0 a 576px mobile**/
 
 @media screen and (max-width:576px) {
-    header nav{
+    header nav {
         width: 100%;
     }
 
-    .contenitoremaintop{
+    .contenitoremaintop {
         display: block;
 
     }
-    .box{
+
+    .box {
         width: 100%;
     }
 
-    .box2{
+    .box2 {
         display: block;
-        
+
     }
 
-    .box2 div{
+    .box .h3blue {
+        text-align: center;
+    }
+
+    .box2 div {
         text-align: center;
         width: 100%;
     }
-    .sezione2{
+
+    .sezione2 {
         width: 100%;
     }
-    .partnersexpert{
+
+    .partnersexpert {
         width: 100%;
         display: block;
         text-align: center;
         padding: 20px 20px;
     }
-    .imgprofilo{
+
+    .imgprofilo {
         width: 100%;
         margin: 0 auto;
     }
-    .descrizione{
+
+    .descrizione {
         width: 100%;
         height: 150px;
         margin-left: 0px;
     }
 
-    .sezione3{
+    .sezione3 {
         padding: 0px;
     }
 
-    .cardcolor{
+    .cardcolor {
         width: 92%;
     }
-    .contenitoremaintop{
+
+    .contenitoremaintop {
         padding-bottom: 30px;
     }
-    .aboutus1, .aboutus2{
+
+    .aboutus1,
+    .aboutus2 {
         width: 100%;
     }
 
-    .piedipagina{
+    .piedipagina {
         width: 100%;
     }
 
 }
+
 /**  fine media queries da 0 a 576px**/

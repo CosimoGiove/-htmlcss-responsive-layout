@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fine font awesome-->
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <!-- fine font-->
     <link rel="stylesheet" href="style.css">
     <title>Layout Responsive</title>
 </head>
@@ -20,10 +27,10 @@
             </div>
             <div class="nav-right">
                 <ul>
-                    <li class="link">Planning</li>
-                    <li class="link">Testimonials</li>
-                    <li class="link">features</li>
-                    <li class="link">About Us</li>
+                    <li class="link links">Planning</li>
+                    <li class="link links">Testimonials</li>
+                    <li class="link links">features</li>
+                    <li class="link links">About Us</li>
                     <li class="link"><button>Get Started</button></li>
                     <li class><i class="fa-solid fa-bars"></i></li>
                 </ul>
@@ -35,34 +42,76 @@
         <div class="contenitoremaintop">
             <!--box1-->
             <div class="box box2">
-                <div>
-                    <h3>Get a demo application</h3>
+                <h3 class="h3blue">Get a demo application</h3>
+                <div class="flex">
+                    <div class="demo">
+                        <p class="grey">
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Dignissimos impedit similique ipsum placeat debitis amet recusandae
+                        </p>
+
+                        <button class="apple">
+                            <i class="fa-brands fa-apple"></i>
+                            App store</button>
+                    </div>
+                    <div class="iphone1">
+                        <img class="iphone" src="img/phone.png" alt="phone">
+                    </div>
                 </div>
-                <div> img</div>
             </div>
             <!--box1-->
             <!--secondo box-->
             <div class="box">
-                <div class="img">img</div>
-                <div class="img">testo</div>
+                <div class="img icon">
+                    <i class="fa-regular fa-file-code"></i>
+                </div>
+                <h3 class="texticon">Clean Code</h3>
+                <p class="paragrafobox grey">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatibus nulla dolor
+                    odio facere asperiores fugit amet dolorum, 
+                </p>
             </div>
             <!--/secondo box-->
             <!--box3-->
             <div class="box">
-                <div class="img">img</div>
-                <div class="img">testo</div>
+                <div class="img icon">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+                <h3 class="texticon">Clean Code</h3>
+                <p class="paragrafobox grey">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatibus nulla dolor
+                    odio facere asperiores fugit amet dolorum
+                </p>
             </div>
             <!-- fine box3-->
             <!--box4-->
             <div class="box">
-                <div class="img">img</div>
-                <div class="img">testo</div>
+                <div class="img icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3 class="texticon">Clean Code</h3>
+                <p class="paragrafobox grey">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatibus nulla dolor
+                    odio facere asperiores fugit amet dolorum
+                </p>
+
             </div>
             <!-- fine box4-->
             <!--box5-->
             <div class="box">
-                <div class="img">img</div>
-                <div class="img">testo</div>
+                <div class="img icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+                <h3 class="texticon">Clean Code</h3>
+                <p class="paragrafobox grey">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatibus nulla dolor
+                    odio facere asperiores fugit amet dolorum
+                </p>
+
             </div>
             <!-- fine box5-->
         </div>
@@ -70,12 +119,40 @@
         <!--seconda sezione-->
         <section class="sezione2">
             <div class="card">
-                <div>img</div>
-                <div> testo</div>
+                <div class="planningtablet">
+                    <img class="planning1" src="img/planning1.png" alt="planning1">
+                </div>
+                <div class="title">
+                    <h2>
+                        Strategic Planning
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam itaque laudantium
+                        quas, ad facilis error esse, non sed dolores
+                        cupiditate aut. Doloremque tempora eaque natus
+                        odit velit dolorem
+
+                    </p>
+                </div>
             </div>
-            <div class="card cardcolor">
-                <div>img</div>
-                <div> testo</div>
+            <div class="card cardcolor boxplanning">
+                <div class="planningimg">
+                    <img class="planning2" src="img/planning2.png" alt="planning2">
+                    <h3>
+                        App Developement
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in totam expedita
+                        voluptatibus nam et rerum neque quidem possimus
+                        quasi animi facilis hic, iure obcaecati
+                    </p>
+                      <div class="arrow">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+                <div>
+                </div>
             </div>
         </section>
         <!-- fine seconda sezione-->
