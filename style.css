@@ -263,23 +263,71 @@ header {
     margin-top: 50px;
     margin-bottom: 25px;
     display: flex;
-    padding: 100px 0;
+    padding: 40px 0;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
 }
 
-.imgprofilo {
-    width: 30%;
-    background-color: red;
-    height: 100px;
+.imgprofilo{
+    width: 200px;
     margin-left: 20px;
+    background-image: url(img/testimonial2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.imgprofilo2{
+    width: 200px;
+    margin-left: 20px;
+    background-image: url(img/testimonial1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.imgprofilo3{
+    width: 200px;
+    margin-left: 20px;
+    background-image: url(img/testimonial3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .descrizione {
     width: 70%;
-    height: 100px;
-    background-color: green;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
+.partners h2{
+    margin: 30px;
+    font-size: 48px;
+    color: #aba7e9;
+}
+
+.descrizione h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.partners{
+    font-size: 20px
+}
+
+
+
+.imgprofilo img{
+    width: 100%;
+    display: block;
+    border-radius: 50%
+}
+
 
 /** fine terza sezione**/
 /** inizio  quarta sezione**/
@@ -295,6 +343,7 @@ header {
 .box4 {
     background-color: white;
 }
+
 
 /** fine  quarta sezione**/
 
@@ -500,8 +549,7 @@ header {
         padding: 20px 20px;
     }
 
-    .imgprofilo {
-        width: 100%;
+    .imgprofilo, .imgprofilo2,.imgprofilo3 {
         margin: 0 auto;
     }
 
@@ -509,10 +557,12 @@ header {
         width: 100%;
         height: 150px;
         margin-left: 0px;
+        margin: 20px 0;
     }
 
     .sezione3 {
         padding: 0px;
+        margin: 0 20px;
     }
 
     .contenitoremaintop {
