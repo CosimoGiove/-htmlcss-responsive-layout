@@ -416,6 +416,14 @@ header {
     background-position: center;
     background-size: cover;
     border-radius: 50%;
+    position: relative;
+}
+
+.quote{
+    position: absolute;
+    left: 150px;
+    font-size: 70px;
+    color:#9792e4; 
 }
 
 .aboutus2 h3, .more{
@@ -462,7 +470,9 @@ header {
     margin-bottom: 30px;
     padding: 25px 80px;
 }
-.piedipagina h4{
+
+
+.started{
     padding-top: 60px;
     padding-bottom: 30px;
     color: #bfbcee;
