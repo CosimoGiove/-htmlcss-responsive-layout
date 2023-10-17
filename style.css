@@ -465,7 +465,7 @@ header {
 .piedipagina h4{
     padding-top: 60px;
     padding-bottom: 30px;
-    color: white;
+    color: #bfbcee;
     font-size: 18px;
     font-weight: lighter;
 }
@@ -499,6 +499,12 @@ header {
 .bg {
     background-color: #333333;
     padding: 50px;
+}
+
+.bg p{
+    width: 480px;
+    margin: o auto;
+    color: white;
 }
 
 /**fine footer**/
@@ -721,6 +727,10 @@ header {
 
     .piedipagina {
         width: 100%;
+    }
+    
+    .bg{
+        padding: 50px 0;
     }
 
 }
