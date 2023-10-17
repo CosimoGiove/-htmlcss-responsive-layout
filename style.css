@@ -50,6 +50,7 @@ button {
 .nav-right ul li {
     display: inline-block;
     color: white;
+    cursor: pointer;
 }
 
 .fa-bars {
@@ -65,6 +66,7 @@ button {
     background-color: white;
     border-radius: 20px;
     color: black;
+    cursor: pointer;
 }
 
 header nav {
@@ -527,7 +529,6 @@ header {
         display: block;
         font-size: 30px;
     }
-
     .nav-right ul .link {
         display: none;
     }
@@ -672,6 +673,7 @@ header {
 
     .box .h3blue {
         text-align: center;
+        padding-top: 40px;
     }
 
     .box2 div {
@@ -681,6 +683,10 @@ header {
 
     .sezione2 {
         width: 100%;
+    }
+
+    .icon{
+        padding-top: 30px;
     }
 
     .partnersexpert {
