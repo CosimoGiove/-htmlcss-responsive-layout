@@ -180,7 +180,7 @@ header {
 }
 
 .planning1 {
-    width: 400px;
+    max-width: 400px;
     position: absolute;
     bottom: 350px;
     left: 5px;
@@ -367,6 +367,13 @@ header {
         background-color: #9792e4;
         width: 100%;
         padding-top: 0px;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    .fa-arrow-down{
+        position: relative;
+        bottom: 12px;
     }
 
     .card {
@@ -375,13 +382,16 @@ header {
         margin-top: 30px;
         padding-bottom: 80px;
         margin-left: 0px;
-        position: relative;
-        left: 250px;
+        width: 100%;
     }
     .planning1{
-        position: static;
+       max-width: 400px;
+       position: static;
     }
 
+    .planningtablet{
+        text-align: center;
+    }
 
     .card div {
         padding-top: 30px;
@@ -404,8 +414,11 @@ header {
         margin-left: 10px
     }
 
-    .sezione4 {
+    .title{
+        margin-top: 30px;
+        width: 100%;
     }
+
 
     .box4 {
         width: calc(100%/2 - 10px);
@@ -500,10 +513,6 @@ header {
 
     .sezione3 {
         padding: 0px;
-    }
-
-    .cardcolor {
-        width: 92%;
     }
 
     .contenitoremaintop {
